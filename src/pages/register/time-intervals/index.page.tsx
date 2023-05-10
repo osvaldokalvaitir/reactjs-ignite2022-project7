@@ -22,6 +22,7 @@ import {
   IntervalInputs,
   IntervalItem,
 } from './styles'
+import { api } from '@/src/lib/axios'
 
 const timeIntervalsFormSchema = z.object({
   intervals: z
@@ -96,9 +97,11 @@ export default function TimeIntervals() {
   const intervals = watch('intervals')
 
   async function handleSetTimeIntervals(data: any) {
-    const formData = data as TimeIntervalsFormOutput
+    const { intervals } = data as TimeIntervalsFormOutput
 
-    console.log(formData)
+    await api.post('/users/time-intervals', {
+      intervals,
+    })
   }
 
   return (
@@ -159,9 +162,7 @@ export default function TimeIntervals() {
           <FormError size="sm">{errors.intervals.message}</FormError>
         )}
 
-        <Button type="submit" disabled={isSubmitting}></Button>
-
-        <Button type="submit">
+        <Button type="submit" disabled={isSubmitting}>
           Próximo passo
           <ArrowRight />
         </Button>
