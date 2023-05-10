@@ -30,25 +30,26 @@ export function buildNextAuthOptions(
         },
       }),
     ],
-    
+
     callbacks: {
-    async signIn({ account }) {
-      if (
-        !account?.scope?.includes('https://www.googleapis.com/auth/calendar')
-      ) {
-        return '/register/connect-calendar/?error=permissions'
-      }
+      async signIn({ account }) {
+        if (
+          !account?.scope?.includes('https://www.googleapis.com/auth/calendar')
+        ) {
+          return '/register/connect-calendar/?error=permissions'
+        }
 
-      return true
-    },
+        return true
+      },
 
-    async session({ session, user }) {
-      return {
-        ...session,
-        user,
-      }
+      async session({ session, user }) {
+        return {
+          ...session,
+          user,
+        }
+      },
     },
-  },
+  }
 }
 
 export default async function auth(req: NextApiRequest, res: NextApiResponse) {
