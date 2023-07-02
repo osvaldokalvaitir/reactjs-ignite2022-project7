@@ -49,6 +49,8 @@ cd reactjs-ignite2022-project6
 # Install deps with npm or yarn
 npm install | yarn
 
+# Make a copy of the .env.example file, rename it to .env and change the variables according to your environment.
+
 # Launch the app with npm or yarn
 npm run dev | yarn dev
 ```
