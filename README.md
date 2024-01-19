@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-  :date: Ignite Call using Next.js, NextAuth.js, Next SEO, Prisma, Day.js, React Hook Form, Zod, TanStack Query, Google APIs Node.js Client, nookies and @ignite-ui/react. CI/CD with Vercel and PlanetScale
+  :date: Ignite Call using Next.js, NextAuth.js, Next SEO, Prisma, Day.js, React Hook Form, Zod, TanStack Query, nookies, @ignite-ui/react, Google APIs Node.js Client and Google Cloud Platform. CI/CD with Vercel and PlanetScale
 
 </p>
 
@@ -54,6 +54,8 @@ npm install | yarn
 # Launch the app with npm or yarn
 npm run dev | yarn dev
 ```
+
+Click to learn more about the tools used: [Google Cloud Platform](https://github.com/osvaldokalvaitir/awesome/blob/main/src/servers/google-cloud-platform.md), [Vercel](https://github.com/osvaldokalvaitir/awesome/blob/main/src/paas/vercel.md), [PlanetScale](https://github.com/osvaldokalvaitir/awesome/blob/main/src/sgdbs/mysql/planetscale.md).
 
 ## :memo: License
 
