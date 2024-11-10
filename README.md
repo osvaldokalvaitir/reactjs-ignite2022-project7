@@ -5,7 +5,7 @@
 </h1>
 
 <h3 align="center">
-  ReactJS - Ignite 2022 Project 6
+  ReactJS - Ignite 2022 Project 7
 </h3>
 
 <p align="center">
@@ -14,9 +14,9 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-ignite2022-project6.svg?color=00A83A">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-ignite2022-project7.svg?color=00A83A">
 
-  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-ignite2022-project6.svg?color=00A83A">
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-ignite2022-project7.svg?color=00A83A">
 
   <a href="https://kalvaitir.com/">
     <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
@@ -41,10 +41,10 @@ Open terminal:
 
 ```sh
 # Clone this repo
-git clone https://github.com/osvaldokalvaitir/reactjs-ignite2022-project6
+git clone https://github.com/osvaldokalvaitir/reactjs-ignite2022-project7
 
 # Entry in folder
-cd reactjs-ignite2022-project6
+cd reactjs-ignite2022-project7
 
 # Install deps with npm or yarn
 npm install | yarn
