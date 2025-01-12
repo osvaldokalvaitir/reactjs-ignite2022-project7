@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-  :date: Ignite Call using Next.js, NextAuth.js, Next SEO, Prisma, Day.js, React Hook Form, Zod, TanStack Query, nookies, @ignite-ui/react, Google APIs Node.js Client and Google Cloud Platform. CI/CD with Vercel and PlanetScale
+  :date: Ignite Call Application using Next.js, NextAuth.js, Next SEO, Prisma, Day.js, React Hook Form, Zod, TanStack Query, nookies, @ignite-ui/react, Google APIs Node.js Client and Google Cloud Platform. CI/CD with Vercel and PlanetScale
 
 </p>
 
